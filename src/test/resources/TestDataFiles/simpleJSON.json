@@ -1,0 +1,17 @@
+{
+  "ValidUserName" : "standard_user",
+  "ValidPassword" : "secret_sauce",
+  "InvalidUserName" : "standard_userr",
+  "InvalidPassword" : "secret_saucee",
+  "ProductsText" : "PRODUCTS",
+  "InvalidUserPopUpMsg" : "Username and password do not match any user in this service.",
+  "ProductNameInHomePage" : "Sauce Labs Backpack",
+  "ProductNameInCartPage" : "Sauce Labs Backpack",
+  "ProductName2HomePage" : "Sauce Labs Bike Light",
+  "ProductName2CartPage" : "Sauce Labs Bike Light",
+  "CheckOutFirstName" : "Mohamed",
+  "CheckOutLastName" : "Yussif",
+  "CheckOutZipCode" : "11211",
+  "OverViewProductName" : "Sauce Labs Backpack",
+  "ThankYouCompletePage" : "THANK YOU FOR YOU ORDER"
+}

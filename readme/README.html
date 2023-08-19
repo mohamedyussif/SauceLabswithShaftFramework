@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mobile Automation Specialist - README</title>
+  <style>
+    /* Modern CSS styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    
+    h1 {
+      font-size: 32px;
+      color: #333;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+    }
+    
+    h2 {
+      font-size: 26px;
+      margin: 20px 0 10px;
+      color: #555;
+    }
+    
+    h3 {
+      font-size: 22px;
+      margin: 10px 0;
+      color: #555;
+    }
+    
+    p {
+      margin-bottom: 10px;
+    }
+    
+    ol, ul {
+      margin-left: 20px;
+    }
+    
+    code {
+      background-color: #f5f5f5;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-family: Consolas, Monaco, 'Courier New', Courier, monospace;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+
+    .container img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Project Name: Sauce Labs</h1>
+  
+    <h2>Description</h2>
+    <p>This is a mobile automation project is designed to automate Sauce Labs application testing using Intellij. The purpose of this project is to provide a framework that facilitates efficient and reliable testing of mobile applications, allowing for faster identification of bugs and ensuring a high-quality user experience. By automating repetitive manual tasks, this project enables testers to focus on more complex scenarios and edge cases.</p>
+
+    <h2>Usage</h2>
+    <ol>
+      <li><strong>Clone the Repository:</strong> Start by cloning the project repository to your local machine using the following command:<br>
+        <code>git clone https://github.com/mohamedyussif/SauceLabswithShaftFramework.git</code></li>
+
+      <li><strong>Setup appium inspector:</strong> Open appium inspector and set the desired capabilities for application inspection following command:<br>
+        <code>{
+          "platformName": "Android",
+          "appium:deviceName": "Demo",
+          "appium:app": "&lt;Your apk directory&gt;\\Android.SauceLabs.Mobile.Sample.app.2.2.0.apk",
+          "appium:appWaitActivity": "com.swaglabsmobileapp.MainActivity",
+          "appium:platformVersion": "14.0",
+          "appium:automationName": "UiAutomator2"
+          }</code></li>
+
+      <li><strong>Configure Device and Environment:</strong> Set up the desired mobile device and environment configurations in the relevant configuration files. Make sure to specify the appropriate device capabilities, platform versions, and other desired settings.</li>
+
+      <li><strong>Open the project:</strong> Navigate to the poject and open it from intellij.</li>
+
+      <li><strong>Run the project:</strong> Wait for loading the dependencies then run the project from the project terminal by using the following command.<code>mvn test -Dtest="Test_SauceLabsWithShaft"</code></li>
+
+      <li><strong>Reporting:</strong> Please wait after executing the project for extracting the execution summary report and the allure report</li>
+
+    </ol>
+
+    <h2>Code Styling</h2>
+    <p>The project follows a Page Object Model Design to maintain readability and code quality. The following guidelines should be considered:</p>
+
+    <ul>
+      <li><strong>Naming Conventions:</strong> Follow camel case naming conventions for variables, and functions. Use descriptive and meaningful names to enhance code comprehension.</li>
+      <li><strong>Comments:</strong> Document the code using inline comments to provide context and explanations where necessary. Commenting is encouraged for complex logic or non-obvious functionality.</li>
+      <li><strong>Modularity and Reusability:</strong> Promote modularity and reusability by encapsulating every needed locators or functions in a reusable methods to Aim for single responsibility and avoid code duplication.</li>
+      <li><strong>Error Handling:</strong> Implement proper error handling mechanisms to gracefully handle exceptions and avoid unexpected applicationcrashes.</li>
+    </ul>
+
+    <h2>Reports Evidences</h2>
+    <p>Here is the last reports evidences for passing all tests and validations of sauce labs automation project</p>
+
+    <ul>
+      <li><strong>Execution Summary Report:</strong> <img src="Execution%20summary%20report%20evidence.png"></li>
+      <li><strong>Allure Report:</strong> <img src="Allure%20report%20evidence.png"></li>
+    </ul>
+
+  </div>
+</body>
+</html>
